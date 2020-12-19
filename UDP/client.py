@@ -4,7 +4,7 @@ import time
 
 host = 'localhost'
 port = 7777
-addr = (host,port)
+addr = (host, port)
 udp_socket = socket(AF_INET, SOCK_DGRAM)
 while True:
     data = input('write to server: ')
